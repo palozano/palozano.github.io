@@ -2,7 +2,7 @@
 	"landing": {
 		"firstName": "Pablo",
 		"lastName": "Lozano",
-		"phoneNumber": "(+34) 91624 5939",
+		"phoneNumber": "(+34) 91 624 5939",
 		"bio": "I am an Applied Mathematics Ph.D. student, researching on human cooperation in hierarchical societies. You can find more information about me scrolling down or in the sidebar on the left.",
 	    "email": "pablo.lozano@uc3m.es",
 	    "linkedin": "https://linkedin.com/in/palozano",
@@ -55,7 +55,8 @@
 			"toDate": "August 2016"
 		}
 	],
-	"skills": [{
+	"skills": [
+		{
 			"name": "HTML5"
 		},
 		{
@@ -79,7 +80,7 @@
 	],
 	"interests": {
 		"paragraphOne": "Apart from being a Ph.D. student, I enjoy most of my free time being outdoors. I enjoy biking, doing crossfit, and recently I started doing yoga.",
-		"paragraphTwo": "When forced indoors, I read A LOT and sometimes I write. I restore old, broken laptops to give them a new life."
+		"paragraphTwo": "When indoors, I read A LOT and sometimes I write. I restore old, broken laptops to give them a new life."
 	},
 	"awards": [
 		{

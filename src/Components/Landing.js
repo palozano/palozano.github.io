@@ -12,9 +12,9 @@ class Landing extends Component {
     return (
       <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
         <div className="w-100">
-          <h1 className="mb-0">{this.landingData.firstName}
+          <h2 className="mb-0">{this.landingData.firstName}
             <span className="text-primary">{this.landingData.lastName}</span>
-          </h1>
+          </h2>
           <div className="subheading mb-5">{this.landingData.phoneNumber} ·
             <a href="mailto:pablo.lozano@uc3m.es">{this.landingData.email}</a>
           </div>
