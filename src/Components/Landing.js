@@ -24,13 +24,13 @@ class Landing extends Component {
           <p className="lead mb-5">{this.landingData.bio}</p>
 
           <div className="social-icons">
-            <a href={this.landingData.linkedin}>
+            <a href={this.landingData.linkedin} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
-            <a href={this.landingData.github}>
+            <a href={this.landingData.github} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a href={this.landingData.twitter}>
+            <a href={this.landingData.twitter} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faTwitter} />
             </a>
           
