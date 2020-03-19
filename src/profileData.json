@@ -78,17 +78,12 @@
 		}
 	],
 	"interests": {
-		"paragraphOne": "Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.",
-		"paragraphTwo": "When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world."
+		"paragraphOne": "Apart from being a Ph.D. student, I enjoy most of my free time being outdoors. I enjoy biking, doing crossfit, and recently I started doing yoga.",
+		"paragraphTwo": "When forced indoors, I read A LOT and sometimes I write. I restore old, broken laptops to give them a new life."
 	},
-	"awards": [{
-			"awardDetail": "Hack 36 3rd prize winner."
-		},
+	"awards": [
 		{
-			"awardDetail": "Mentor OpenCode'19"
+			"awardDetail": "IBM Hackathon winner."
 		},
-		{
-			"awardDetail": "Started North India's First Student Design and Developer Conference."
-		}
 	]
 }
