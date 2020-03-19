@@ -1,20 +1,21 @@
 {
 	"landing": {
-		"firstName": "Anupam",
-		"lastName": "Dagar",
-		"phoneNumber": "+91-0123456789",
-		"bio": "I am an opensource contributor and have contributed to Zulip, Hasura, Fossasia, Publiclab and many other projects. My tech stack includes Python and Javascript. Python for server side and scripting and Javascript for the frontend. I use Django framework for the server side development and React for the frontend development. I have also worked with GraphQL. I am a GitHub Campus Expert at my insititute where I am responsible for building on campus community. I am the lead organiser of Hack In The North Hackathon and the cofounder of Pragma Conference held at IIIT Allahabad.",
-    "email": "dagaranupam@gmail.com",
-    "linkedin": "https://linkedin.com/in/anupamdagar",
-		"github": "https://github.com/Anupam-dagar"
+		"firstName": "Pablo",
+		"lastName": "Lozano",
+		"phoneNumber": "(+34) 91624 5939",
+		"bio": "I am an Applied Mathematics Ph.D. student, researching on human cooperation in hierarchical societies.",
+    "email": "pablo.lozano@uc3m.es",
+    "linkedin": "https://linkedin.com/in/palozano",
+	"github": "https://github.com/palozano",
+	"twitter": "https://github.com/palozano4"
 	},
 	"experience": [
 		{
-				"position": "GitHub Campus Expert",
-				"organization": "GitHub",
-				"aboutWork": "Responsible for building the on campus community with the support of GitHub.",
-				"fromDate": "August 2018",
-				"toDate": "Present"
+			"position": "GitHub Campus Expert",
+			"organization": "GitHub",
+			"aboutWork": "Responsible for building the on campus community with the support of GitHub.",
+			"fromDate": "August 2018",
+			"toDate": "Present"
 		},
 		{
 			"position": "Opensource Developer Intern",
