@@ -20,7 +20,8 @@ class App extends Component {
       writing_skills : profileData.writing_skills,
       languages : profileData.languages,
       interests : profileData.interests,
-      publications : profileData.publications
+      publications : profileData.publications,
+      contributions : profileData.contributions
     }
   }
   render() {
@@ -39,7 +40,9 @@ class App extends Component {
                   languages={this.state.languages}
           />
           <hr className="m-0" />
-          <Publications publications={this.state.publications} />
+          <Publications publications={this.state.publications}
+                        contributions={this.state.contributions}
+          />
           <hr className="m-0" />
           <Interests interests={this.state.interests} />
         </div>

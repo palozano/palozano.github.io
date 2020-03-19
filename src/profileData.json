@@ -115,8 +115,40 @@
 			"link": "https://www.nature.com/articles/s41598-018-27544-5"
 		}
 	],
+	"contributions": [
+		{
+			"title": "Hierarchies can arise spontaneously in egalitarian societies",
+			"authors": "Pablo Lozano, Sergey Gavrilets & Angel Sánchez",
+			"contrib": "Poster at 5th International Conference in Computational Social Science (IC2S2).",
+			"date": "Amsterdam, The Netherlands. (July 2019)"
+		},
+		{
+			"title": "Complexity 72 Hours",
+			"authors": "Part of Ennio Bilancini’s group researching on social physics",
+			"contrib": "Three-day research event with a pre-print in arXiv.",
+			"date": "Lucca, Italy. (June 2019)"
+		},
+		{
+			"title": "SEEHB meeting",
+			"authors": "Pablo Lozano",
+			"contrib": "Participant in the second edition of the Southern Eastern Evolutionary and Human Behavior meeting at Georgia State University.",
+			"date": "Georgia, Atlanta, USA. (April 2019)"
+		},
+		{
+			"title": "European Night of the Researchers",
+			"authors": "GISC",
+			"contrib": "Communication post: ''Genre and technology: EU projects about Big Data.''",
+			"date": "Madrid, Spain. (November 2018)"
+		},
+		{
+			"title": "Cine: críticas, ingresos y correlaciones",
+			"authors": "Adrián Carrasco, Pablo Lozano & José Antonio Salmerón",
+			"contrib": "Communication post at Periódico Expansión",
+			"date": "(December 2018)"
+		}
+	],
 	"interests": {
 		"paragraphOne": "Apart from being a Ph.D. student, I enjoy most of my free time being outdoors. I enjoy biking and doing CrossFit.",
-		"paragraphTwo": "When indoors, I read and sometimes I write. I restore old, broken laptops to give them a new life! I also paint."
+		"paragraphTwo": "When indoors, I read and sometimes I write. I try to restore old, broken laptops to give them a new life! I also paint."
 	}
 }
