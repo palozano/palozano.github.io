@@ -3,7 +3,7 @@
 		"firstName": "Pablo",
 		"lastName": "Lozano",
 		"phoneNumber": "(+34) 91 624 5939",
-		"bio": "I am an Applied Mathematics Ph.D. student, researching on human cooperation in hierarchical societies. You can find more information about me scrolling down or in the sidebar on the left.",
+		"bio": "I am an Applied Mathematics Ph.D. student, researching on human cooperation, particularly within hierarchical societies.",
 	    "email": "pablo.lozano@uc3m.es",
 	    "linkedin": "https://linkedin.com/in/palozano",
 		"github": "https://github.com/palozano",
@@ -37,6 +37,7 @@
 			"university": "Universidad Carlos III de Madrid",
 			"degree": "Ph.D in Mathematical Engineering",
 			"gpa": "10 out of 10",
+			"info": "",
 			"fromDate": "September 2018",
 			"toDate": "Today"
 		},
@@ -44,6 +45,7 @@
 			"university": "Universidad Carlos III de Madrid",
 			"degree": "Master's in Mathematical Engineering",
 			"gpa": "8.5 out of 10",
+			"info": "",
 			"fromDate": "September 2016",
 			"toDate": "August 2018"
 		},
@@ -51,40 +53,56 @@
 			"university": "Universidad Carlos III de Madrid",
 			"degree": "Bachelor's in Industrial Engineering",
 			"gpa": "7 out of 10",
+			"info": "",
 			"fromDate": "September 2012",
 			"toDate": "August 2016"
 		}
 	],
-	"skills": [
-		{
-			"name": "HTML5"
-		},
-		{
-			"name": "CSS3"
-		},
-		{
-			"name": "Javascript"
-		},
-		{
-			"name": "React"
-		},
-		{
-			"name": "Nodejs"
-		},
-		{
-			"name": "Python"
-		},
-		{
-			"name": "Django"
-		}
+	"programming_skills": [
+		{ "name": "Web Design", "tools": "HTML5, CSS3, LESS, SASS" },
+		{ "name": "Web Development", "tools": "React, Javascript, Django" },
+		{ "name": "Programming", "tools": "Python, R, C/C++, MATLAB, SQL (mainly PostgreSQL" },
+		{ "name": "Mathematical Development", "tools": "Machine Learning, Neural Networks, Deep Learning" },
+		{ "name": "Data Analysis", "tools": "Numpy, Pandas, Plotly, Matplotlib and Seaborn, TensorFlow, Scikit, Keras, PyTorch," },
+		{ "name": "*NIX", "tools": "Bash scripting, Linux Administration" }
+	],
+	"writing_skills": [
+		{ "name": "Writing/Editing Tools", "tools": "LaTex, Markdown, Scrively, Office" },
+		{ "name": "Writing/Editing Courses", "tools": "Writing in the Sciences (Stanford), Academic Writing in English (UC3M)" },
+		{ "name": "Experience", "tools": "Reviewer for several scientific journals (PLOS One and Scientific Reports)" }
+	],
+	"languages": [
+		{ "name": "Spanish", "level": "Native" },
+		{ "name": "English", "level": "Professional/Academic (C1/C2)" },
+		{ "name": "French", "level": "Intermediate/Fluent (~B2)" },
+		{ "name": "German", "level": "Basic (A2)" },
+		{ "name": "Russian", "level": "Basic (A1)" }
 	],
 	"interests": {
 		"paragraphOne": "Apart from being a Ph.D. student, I enjoy most of my free time being outdoors. I enjoy biking, doing crossfit, and recently I started doing yoga.",
-		"paragraphTwo": "When indoors, I read A LOT and sometimes I write. I restore old, broken laptops to give them a new life."
+		"paragraphTwo": "When indoors, I read A LOT and sometimes I write. I restore old, broken laptops to give them a new life! I also paint."
 	},
-	"awards": [
+	"publications": [
 		{
-			"awardDetail": "IBM Hackathon winner."
+			"title": "Cooperation, social norms, and hierarchical societies",
+			"authors": "Pablo Lozano, Sergey Gavrilets & Angel Sánchez",
+			"journal": "Scientific Reports",
+			"date": "Under Review",
+			"link": ""
+		},
+		{
+			"title": "Shall we turn off the media?  Global information can destroy local cooperation in the one-dimensional ring",
+			"authors": "B. Aydin, et al.",
+			"journal": "ArXiv",
+			"date": "2019",
+			"link": "https://arxiv.org/abs/1906.09133"
+		},
+		{
+			"title": "Cooperation on dynamic networks within an uncertain reputation environment",
+			"authors": "Pablo Lozano, Alberto Antonioni, Marco Tomassini & Angel Sánchez.",
+			"journal": "ArXiv",
+			"date": "2019",
+			"link": "https://arxiv.org/abs/1906.09133"
 		}
 	]
 }

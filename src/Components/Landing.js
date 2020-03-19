@@ -12,13 +12,17 @@ class Landing extends Component {
     return (
       <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
         <div className="w-100">
-          <h2 className="mb-0">{this.landingData.firstName}
+          
+          <h2 className="display-2 mb-0">{this.landingData.firstName}
             <span className="text-primary">{this.landingData.lastName}</span>
           </h2>
-          <div className="subheading mb-5">{this.landingData.phoneNumber} ·
-            <a href="mailto:pablo.lozano@uc3m.es">{this.landingData.email}</a>
-          </div>
+
+          <h6 className="text-lowercase mb-5">{this.landingData.phoneNumber} · <a href="mailto:pablo.lozano@uc3m.es">{this.landingData.email}</a>
+          {/*<h6 className="text-lowercase mb-5">send me an email: <a href="mailto:pablo.lozano@uc3m.es">{this.landingData.email}</a>*/}
+          </h6>
+          
           <p className="lead mb-5">{this.landingData.bio}</p>
+
           <div className="social-icons">
             <a href={this.landingData.linkedin}>
               <FontAwesomeIcon icon={faLinkedin} />
@@ -29,6 +33,7 @@ class Landing extends Component {
             <a href={this.landingData.twitter}>
               <FontAwesomeIcon icon={faTwitter} />
             </a>
+          
           </div>
         </div>
       </section>

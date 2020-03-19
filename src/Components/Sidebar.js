@@ -17,9 +17,11 @@ class Sidebar extends Component {
             <img className="img-fluid img-profile rounded-circle mx-auto mb-3" src={image} alt=""></img>
           </span>
         </a>
+
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
+
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav">
             <li className="nav-item">
@@ -35,10 +37,10 @@ class Sidebar extends Component {
               <a className="nav-link js-scroll-trigger" href="#skills">Skills</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
+              <a className="nav-link js-scroll-trigger" href="#publications">Publications</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#awards">Awards</a>
+              <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
             </li>
           </ul>
         </div>
