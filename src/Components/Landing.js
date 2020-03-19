@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 class Landing extends Component {
   constructor(props) {
@@ -16,7 +16,7 @@ class Landing extends Component {
             <span className="text-primary">{this.landingData.lastName}</span>
           </h1>
           <div className="subheading mb-5">{this.landingData.phoneNumber} ·
-            <a href="mailto:name@email.com">{this.landingData.email}</a>
+            <a href="mailto:pablo.lozano@uc3m.es">{this.landingData.email}</a>
           </div>
           <p className="lead mb-5">{this.landingData.bio}</p>
           <div className="social-icons">
@@ -25,6 +25,9 @@ class Landing extends Component {
             </a>
             <a href={this.landingData.github}>
               <FontAwesomeIcon icon={faGithub} />
+            </a>
+            <a href={this.landingData.twitter}>
+              <FontAwesomeIcon icon={faTwitter} />
             </a>
           </div>
         </div>

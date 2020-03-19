@@ -4,40 +4,55 @@
 		"lastName": "Lozano",
 		"phoneNumber": "(+34) 91624 5939",
 		"bio": "I am an Applied Mathematics Ph.D. student, researching on human cooperation in hierarchical societies.",
-    "email": "pablo.lozano@uc3m.es",
-    "linkedin": "https://linkedin.com/in/palozano",
-	"github": "https://github.com/palozano",
-	"twitter": "https://github.com/palozano4"
+	    "email": "pablo.lozano@uc3m.es",
+	    "linkedin": "https://linkedin.com/in/palozano",
+		"github": "https://github.com/palozano",
+		"twitter": "https://github.com/palozano4"
 	},
 	"experience": [
 		{
-			"position": "GitHub Campus Expert",
-			"organization": "GitHub",
-			"aboutWork": "Responsible for building the on campus community with the support of GitHub.",
-			"fromDate": "August 2018",
+			"position": "Teaching Assistant",
+			"organization": "Universidad Carlos III de Madrid",
+			"aboutWork": "Research and teaching.",
+			"fromDate": "September 2016",
 			"toDate": "Present"
 		},
 		{
-			"position": "Opensource Developer Intern",
-			"organization": "Fossasia",
-			"aboutWork": "Contributing to Fossasia's open event server and frontend as an intern. Resolved numerous bugs and added new features to the eventyay platform.",
-			"fromDate": "June 2019",
-			"toDate": "Present"
+			"position": "Laboratory Technician",
+			"organization": "Universidad Carlos III de Madrid",
+			"aboutWork": "PCBs and stuff",
+			"fromDate": "September 2015",
+			"toDate": "January 2016"
 		},
 		{
-			"position": "Software Developer Intern",
-			"organization": "Hasura",
-			"aboutWork": "Worked on Hasura's GraphQL engine and added new features in it.",
-			"fromDate": "December 2018",
-			"toDate": "January 2019"
+			"position": "Systems Engineer",
+			"organization": "Profit Innova",
+			"aboutWork": "CRM, sales, internal network maintenance, etc.",
+			"fromDate": "May 2015",
+			"toDate": "August 2015"
 		}
 	],
-	"education": [{
-			"university": "Indian Institute of Information Technology Allahabad",
-			"degree": "Bachelor of Technology",
-			"gpa": "12.34",
-			"fromDate": "August 2016",
-			"toDate": "Present"
+	"education": [
+		{
+			"university": "Universidad Carlos III de Madrid",
+			"degree": "Ph.D in Mathematical Engineering",
+			"gpa": "10 out of 10",
+			"fromDate": "September 2018",
+			"toDate": "Today"
+		},
+		{
+			"university": "Universidad Carlos III de Madrid",
+			"degree": "Master's in Mathematical Engineering",
+			"gpa": "8.5 out of 10",
+			"fromDate": "September 2016",
+			"toDate": "August 2018"
+		},
+		{
+			"university": "Universidad Carlos III de Madrid",
+			"degree": "Bachelor's in Industrial Engineering",
+			"gpa": "7 out of 10",
+			"fromDate": "September 2012",
+			"toDate": "August 2016"
 		}
 	],
 	"skills": [{
@@ -60,9 +75,6 @@
 		},
 		{
 			"name": "Django"
-		},
-		{
-			"name": "Ember"
 		}
 	],
 	"interests": {
