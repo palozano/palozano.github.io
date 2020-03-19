@@ -92,10 +92,6 @@
 		{ "name": "German", "level": "Basic (A2)" },
 		{ "name": "Russian", "level": "Basic (A1)" }
 	],
-	"interests": {
-		"paragraphOne": "Apart from being a Ph.D. student, I enjoy most of my free time being outdoors. I enjoy biking, doing crossfit, and recently I started doing yoga.",
-		"paragraphTwo": "When indoors, I read A LOT and sometimes I write. I restore old, broken laptops to give them a new life! I also paint."
-	},
 	"publications": [
 		{
 			"title": "Cooperation, social norms, and hierarchical societies",
@@ -118,5 +114,9 @@
 			"date": "2018",
 			"link": "https://www.nature.com/articles/s41598-018-27544-5"
 		}
-	]
+	],
+	"interests": {
+		"paragraphOne": "Apart from being a Ph.D. student, I enjoy most of my free time being outdoors. I enjoy biking and doing CrossFit.",
+		"paragraphTwo": "When indoors, I read and sometimes I write. I restore old, broken laptops to give them a new life! I also paint."
+	}
 }
