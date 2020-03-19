@@ -11,23 +11,37 @@
 	},
 	"experience": [
 		{
+			"position": "Visiting Scholar",
+			"organization": "University of Tennessee Knoxville",
+			"aboutWork": "Short research stay at Dr. Sergey Gavrilets’ lab in the Ecology and Evolutionary Biology (EEB) Department at UTK. Development of a model involving social norms within hierarchical societies.",
+			"fromDate": "January 2019",
+			"toDate": "May 2019"
+		},
+		{
 			"position": "Teaching Assistant",
 			"organization": "Universidad Carlos III de Madrid",
-			"aboutWork": "Research and teaching.",
+			"aboutWork": "Teaching at different levels. Undergraduate level: Linear Algebra to Biomedical Engineering, Industrial Engineering, Telecommunications Engineering, and Data Science and Computation Engineering degrees. Calculus I and II, for Energy Systems Engineering and Electrical Engineering. Other: Introduction to programming with Python and MATLAB.",
 			"fromDate": "September 2016",
 			"toDate": "Present"
 		},
 		{
+			"position": "Research Member",
+			"organization": "GISC & UMMICS",
+			"aboutWork": "Member of the Interdisciplinary Group in Complex Systems (GISC in Spanish) and of the Mixed Unit for Complexity and Social Sciences (UMMICS in Spanish). GISC’s twitter account community manager (@giscgroup) since Jan. 2020.",
+			"fromDate": "September 2016",
+			"toDate": "Today"
+		},
+		{
 			"position": "Laboratory Technician",
 			"organization": "Universidad Carlos III de Madrid",
-			"aboutWork": "PCBs and stuff",
+			"aboutWork": "Intern as Laboratory Technician, in charge of manufacturing ad-hoc systems, and repairing circuits and PCBs, using professional (OrCAD) and free software (EAGLE).",
 			"fromDate": "September 2015",
 			"toDate": "January 2016"
 		},
 		{
 			"position": "Systems Engineer",
 			"organization": "Profit Innova",
-			"aboutWork": "CRM, sales, internal network maintenance, etc.",
+			"aboutWork": "Designing, manufacturing and calibration of a metal-cloth characterization system. Industrial systems tasks, maintaining internal network, CRM and sales programs.",
 			"fromDate": "May 2015",
 			"toDate": "August 2015"
 		}
@@ -37,7 +51,7 @@
 			"university": "Universidad Carlos III de Madrid",
 			"degree": "Ph.D in Mathematical Engineering",
 			"gpa": "10 out of 10",
-			"info": "",
+			"info": "Full scholarship for researching with Angel Sánchez and Alberto Antonioni. Research interests: Complex Systems, Evolutionary Game Theory, Behavioral Economics, Computational Social Systems, Machine Learning.",
 			"fromDate": "September 2018",
 			"toDate": "Today"
 		},
@@ -45,7 +59,7 @@
 			"university": "Universidad Carlos III de Madrid",
 			"degree": "Master's in Mathematical Engineering",
 			"gpa": "8.5 out of 10",
-			"info": "",
+			"info": "Full scholarship. Dissertation title: Formation models of hierarchical societies. Modules included: Numerical Methods, Game Theory, Multivariate Statistics, Stochastic Differential Equations, Simulation, Dynamical Systems, Mathematical Biology.",
 			"fromDate": "September 2016",
 			"toDate": "August 2018"
 		},
@@ -53,7 +67,7 @@
 			"university": "Universidad Carlos III de Madrid",
 			"degree": "Bachelor's in Industrial Engineering",
 			"gpa": "7 out of 10",
-			"info": "",
+			"info": "Minor in Electronics and Robotics. Dissertation title: Models for cooperation in dynamical networks with unreliable reputation. Modules included: Control Theory, Algorithms, Software Engineering, Object-Oriented Programming, Computer Systems Modelling, Robotics, Power and Analog Electronics.",
 			"fromDate": "September 2012",
 			"toDate": "August 2016"
 		}

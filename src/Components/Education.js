@@ -18,7 +18,7 @@ class Education extends Component {
                 <div className="resume-content">
                   <h3 className="font-weight-normal mb-0">{data.degree}</h3>
                   <div className="font-weight-light subheading mb-3">{data.university}</div>
-                  <p>Grade: {data.gpa}</p>
+                  <p>{data.info}</p>
                 </div>
                 <div className="resume-date text-md-right">
                   <span className="text-primary">{data.fromDate} - {data.toDate}</span>
