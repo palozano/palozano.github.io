@@ -6,45 +6,66 @@ class Sidebar extends Component {
     super(props);
 
     this.sidebarData = props.sidebarData;
+
+    // This is for toggling the navbar
+    this.toggleNavbar = this.toggleNavbar.bind(this);
+    this.state = {
+      collapsed: true,
+    };
+  }
+
+  // Function that toggles the navbar
+  toggleNavbar() {
+    this.setState({
+      collapsed: !this.state.collapsed,
+    });
   }
 
   render() {
+    const collapsed = this.state.collapsed;
+    const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
+    const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
+
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-        <a className="navbar-brand js-scroll-trigger" href="#page-top">
-          <span className="d-block d-lg-none">{this.sidebarData.firstName} {this.sidebarData.lastName}</span>
-          <span className="d-none d-lg-block">
-            <img className="img-fluid img-profile rounded-circle mx-auto mb-3" src={image} alt=""></img>
-          </span>
-        </a>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
 
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
+          <a className="navbar-brand" href="#about">
+            <span className="d-block d-lg-none">
+              {this.sidebarData.firstName} {this.sidebarData.lastName}'s Webpage
+            </span>
+            <span className="d-none d-lg-block">
+              <img className="img-fluid rounded-circle mx-auto mb-3" src={image} alt=""/>
+            </span>
+          </a>
+          
+          <button onClick={this.toggleNavbar} className={`${classTwo}`} type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"/>
+          </button>
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#experience">Experience</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#education">Education</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#skills">Skills</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#publications">Publications</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+          <div className={`${classOne}`} id="navbarSupportedContent">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#about">About</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#experience">Experience</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#education">Education</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#skills">Skills</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#publications">Publications</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
     );
   }
 }
