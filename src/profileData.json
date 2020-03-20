@@ -22,7 +22,7 @@
 			"organization": "Universidad Carlos III de Madrid",
 			"aboutWork": "Teaching at different levels. Undergraduate level: Linear Algebra to Biomedical Engineering, Industrial Engineering, Telecommunications Engineering, and Data Science and Computation Engineering degrees. Calculus I and II, for Energy Systems Engineering and Electrical Engineering. Other: Introduction to programming with Python and MATLAB.",
 			"fromDate": "September 2016",
-			"toDate": "Present"
+			"toDate": "Today"
 		},
 		{
 			"position": "Research Member",
@@ -75,9 +75,9 @@
 	"programming_skills": [
 		{ "name": "Web Design", "tools": "HTML5, CSS3, LESS, SASS" },
 		{ "name": "Web Development", "tools": "React, Javascript, Django" },
-		{ "name": "Programming", "tools": "Python, R, C/C++, MATLAB, SQL (mainly PostgreSQL" },
+		{ "name": "Programming", "tools": "Python, R, C/C++, MATLAB, SQL (mainly PostgreSQL)" },
 		{ "name": "Mathematical Development", "tools": "Machine Learning, Neural Networks, Deep Learning" },
-		{ "name": "Data Analysis", "tools": "Numpy, Pandas, Plotly, Matplotlib and Seaborn, TensorFlow, Scikit, Keras, PyTorch," },
+		{ "name": "Data Analysis", "tools": "Numpy, Pandas, Plotly, Matplotlib/Seaborn, TensorFlow, Scikit, Keras and PyTorch" },
 		{ "name": "*NIX", "tools": "Bash scripting, Linux Administration" }
 	],
 	"writing_skills": [
