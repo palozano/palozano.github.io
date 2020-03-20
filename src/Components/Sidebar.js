@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import image from '../Assets/profile.jpeg';
+import CV from '../Assets/CV.pdf';
+
 
 class Sidebar extends Component {
   constructor(props) {
@@ -63,6 +65,10 @@ class Sidebar extends Component {
               </li>
               <li className="nav-item">
                 <a onClick={this.toggleNavbar} className='nav-link js-scroll-trigger' href="#interests">Interests</a>
+              </li>
+              <li className="nav-item">
+                <a onClick={this.toggleNavbar} className='nav-link js-scroll-trigger font-weight-light' href={CV}
+                   target="_blank" rel="noopener noreferrer">Click here to get my CV on pdf</a>
               </li>
             </ul>
           </div>
