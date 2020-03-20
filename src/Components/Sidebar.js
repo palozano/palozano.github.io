@@ -23,8 +23,8 @@ class Sidebar extends Component {
 
   render() {
     const collapsed = this.state.collapsed;
-    const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
-    const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
+    const classNavbar = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
+    const classButton = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
 
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -37,31 +37,32 @@ class Sidebar extends Component {
               <img className="img-fluid rounded-circle mx-auto mb-3" src={image} alt=""/>
             </span>
           </a>
-          
-          <button onClick={this.toggleNavbar} className={`${classTwo}`} type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+          <button onClick={this.toggleNavbar} className={`${classButton}`} type="button" data-toggle="collapse"
+                  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"/>
           </button>
 
-          <div className={`${classOne}`} id="navbarSupportedContent">
+          <div className={`${classNavbar}`} id="navbarSupportedContent">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#about">About</a>
+                <a onClick={this.toggleNavbar} className='nav-link js-scroll-trigger' href="#about">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                <a onClick={this.toggleNavbar} className='nav-link js-scroll-trigger' href="#experience">Experience</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#education">Education</a>
+                <a onClick={this.toggleNavbar} className='nav-link js-scroll-trigger' href="#education">Education</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                <a onClick={this.toggleNavbar} className='nav-link js-scroll-trigger' href="#skills">Skills</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#publications">Publications</a>
+                <a onClick={this.toggleNavbar} className='nav-link js-scroll-trigger' href="#publications">Publications</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
+                <a onClick={this.toggleNavbar} className='nav-link js-scroll-trigger' href="#interests">Interests</a>
               </li>
             </ul>
           </div>
