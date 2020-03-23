@@ -3,7 +3,7 @@
 		"firstName": "Pablo",
 		"lastName": "Lozano",
 		"phoneNumber": "(+34) 91 624 5939",
-		"bio": "I am an Applied Mathematics Ph.D. student, researching on human cooperation, particularly within hierarchical societies.",
+		"bio": "I am an Applied Mathematics Ph.D. student researching on human cooperation, particularly within hierarchical societies.",
 	    "email": "pablo.lozano@uc3m.es",
 	    "linkedin": "https://linkedin.com/in/palozano",
 		"github": "https://github.com/palozano",
@@ -73,11 +73,11 @@
 		}
 	],
 	"programming_skills": [
-		{ "name": "Web Design", "tools": "HTML5, CSS3, LESS, SASS" },
-		{ "name": "Web Development", "tools": "React, Javascript, Django" },
 		{ "name": "Programming", "tools": "Python, R, C/C++, MATLAB, SQL (mainly PostgreSQL)" },
+		{ "name": "Web Development", "tools": "Django, ReactJS, Javascript" },
 		{ "name": "Mathematical Development", "tools": "Machine Learning, Neural Networks, Deep Learning" },
 		{ "name": "Data Analysis", "tools": "Numpy, Pandas, Plotly, Matplotlib/Seaborn, TensorFlow, Scikit, Keras and PyTorch" },
+		{ "name": "Web Design", "tools": "HTML5, CSS3, LESS, SASS" },
 		{ "name": "*NIX", "tools": "Bash scripting, Linux Administration" }
 	],
 	"writing_skills": [
@@ -119,32 +119,37 @@
 		{
 			"title": "Hierarchies can arise spontaneously in egalitarian societies",
 			"authors": "Pablo Lozano, Sergey Gavrilets & Angel Sánchez",
-			"contrib": "Poster at 5th International Conference in Computational Social Science (IC2S2).",
-			"date": "Amsterdam, The Netherlands. (July 2019)"
+			"contrib": "Poster at 5th International Conference in Computational Social Science (IC2S2)",
+			"date": "July 2019",
+			"place": "Amsterdam, The Netherlands"
 		},
 		{
 			"title": "Complexity 72 Hours",
 			"authors": "Part of Ennio Bilancini’s group researching on social physics",
-			"contrib": "Three-day research event with a pre-print in arXiv.",
-			"date": "Lucca, Italy. (June 2019)"
+			"contrib": "Three-day research event with a pre-print in arXiv",
+			"date": "June 2019",
+			"place": "Lucca, Italy"
 		},
 		{
 			"title": "SEEHB meeting",
 			"authors": "Pablo Lozano",
-			"contrib": "Participant in the second edition of the Southern Eastern Evolutionary and Human Behavior meeting at Georgia State University.",
-			"date": "Georgia, Atlanta, USA. (April 2019)"
+			"contrib": "Second edition of the Southern Eastern Evolutionary and Human Behavior meeting",
+			"date": "April 2019",
+			"place": "Georgia, Atlanta, USA"
 		},
 		{
 			"title": "European Night of the Researchers",
-			"authors": "GISC",
-			"contrib": "Communication post: ''Genre and technology: EU projects about Big Data.''",
-			"date": "Madrid, Spain. (November 2018)"
+			"authors": "Grupo Interdisciplinar de Sistemas Complejos (GISC)",
+			"contrib": "Communication poster: ''Genre and technology: EU projects about Big Data''",
+			"date": "November 2018",
+			"place": "Madrid, Spain"
 		},
 		{
 			"title": "Cine: críticas, ingresos y correlaciones",
 			"authors": "Adrián Carrasco, Pablo Lozano & José Antonio Salmerón",
 			"contrib": "Communication post at Periódico Expansión",
-			"date": "(December 2018)"
+			"date": "(December 2018)",
+			"place": "Madrid, Spain"
 		}
 	],
 	"interests": {

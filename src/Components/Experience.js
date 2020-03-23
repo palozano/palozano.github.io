@@ -10,7 +10,6 @@ class Experience extends Component {
   render() {
     return(
       <section className="resume-section p-3 p-lg-5 d-flex align-items-center" id="experience">
-        // justify-content-center
         <div className="w-100">
           <h2 className="display-3 mb-5">Experience</h2>
           {
