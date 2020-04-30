@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faBook, faUser, faCalendarAlt, faMapMarkerAlt} from "@fortawesome/free-solid-svg-icons";
 
 
 class Publications extends Component {
@@ -20,8 +22,8 @@ class Publications extends Component {
                 <div key={index} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                   <div className="resume-content">
                     <h4 className="font-weight-normal mb-2"><a href={data.link} target="_blank" rel="noopener noreferrer">{data.title}</a></h4>
-                    <h5 className="font-weight-light mb-2">{data.journal}</h5>
-                    <p>{data.authors} ({data.date})</p>
+                    <h5 className="font-weight-light mb-2"><FontAwesomeIcon icon={faBook} color="green" />  {data.journal}</h5>
+                    <p><FontAwesomeIcon icon={faUser} color="green" />  {data.authors} ({data.date})</p>
                   </div>
                 </div>
             ))
@@ -36,7 +38,8 @@ class Publications extends Component {
                   <div className="resume-content">
                     <h4 className="font-weight-normal mb-2">{data.title}</h4>
                     <h6 className="font-weight-light mb-2">{data.contrib}</h6>
-                    <p>{data.authors}. {data.date}</p>
+                    <p><FontAwesomeIcon icon={faUser} color="green" /> {data.authors}<br/>
+                    <FontAwesomeIcon icon={faCalendarAlt} color="green" /> {data.date} &mdash; <FontAwesomeIcon icon={faMapMarkerAlt} color="green" /> {data.place}</p>
                   </div>
                 </div>
             ))

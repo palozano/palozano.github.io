@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
+import { faTerminal, faPenFancy, faCheck } from "@fortawesome/free-solid-svg-icons";
 
 
 class Skills extends Component {
@@ -23,7 +23,7 @@ class Skills extends Component {
             this.programming_skills.map((data, index) => (
               <div key={index} className="col-6">
                 <p className="list-item">
-                  <FontAwesomeIcon icon={faCheckCircle} color="green" />
+                  <FontAwesomeIcon icon={faTerminal} color="green" />
                   <span className="text-uppercase font-weight-bold ml-3">{data.name}</span> <br/>
                   <span className="ml-3">{data.tools}</span>
                 </p>
@@ -40,7 +40,7 @@ class Skills extends Component {
               this.writing_skills.map((data, index) => (
                   <div key={index} className="col-6">
                     <p className="list-item">
-                      <FontAwesomeIcon icon={faCheckCircle} color="green" />
+                      <FontAwesomeIcon icon={faPenFancy} color="green" />
                       <span className="text-uppercase font-weight-bold ml-3">{data.name}</span> <br/>
                       <span className="ml-3">{data.tools}</span>
                     </p>
@@ -57,6 +57,7 @@ class Skills extends Component {
               this.languages.map((data, index) => (
                   <div key={index} className="col-6">
                     <p className="list-item">
+                      <FontAwesomeIcon icon={faCheck} color="green" />
                       <span className="text-uppercase font-weight-bold ml-3">{data.name}</span>
                       <span className="ml-3">{data.level}</span>
                     </p>
