@@ -14,13 +14,13 @@ body {
 }
 
 a {
-  color: #1772d0;
+  color: hsl(210, 80%, 45%);
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228;
+  color: hsl(32, 87%, 55%);
   text-decoration: none;
 }
 
@@ -30,8 +30,8 @@ hr {
   margin-right: auto;
   border: none;
   height: 1px;
-  color: #333; /* old IE */
-  background-color: #333; /* Modern Browsers */
+  color: hsl(0, 0%, 20%); /* old IE */
+  background-color: hsl(0, 0%, 20%); /* Modern Browsers */
 }
 
 li {
