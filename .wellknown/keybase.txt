@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/palozano
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://palozano.com
+  * I am palozano (https://keybase.io/palozano) on keybase.
+  * I have a public key ASDHmB1HKOPVNXcceiJQR2hzGm7KKITFO1npIgWr2iMnRgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120c7981d4728e3d535771c7a22504768731a6eca2884c53b59e92205abda2327460a",
+      "host": "keybase.io",
+      "kid": "0120c7981d4728e3d535771c7a22504768731a6eca2884c53b59e92205abda2327460a",
+      "uid": "ab6227a7fbf783cbf545cf1df939f419",
+      "username": "palozano"
+    },
+    "merkle_root": {
+      "ctime": 1676471400,
+      "hash": "696d6fc077ca9c659ec15f27a047b5fc20e030eb001dea8b764bb9f6da4e11f99c5fe9848826ac6cbdb472f47c59d3b138406a4f5c9450b17b1611eeceaf1c8e",
+      "hash_meta": "f188e5ad7bae5ff19ee2cecd10e3c4ffcfe92e4a638d8454514347e83afd33d1",
+      "seqno": 24051636
+    },
+    "service": {
+      "entropy": "7sc3FPDlDBgFBH8bC6UxWf2Z",
+      "hostname": "palozano.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.4"
+  },
+  "ctime": 1676471448,
+  "expire_in": 504576000,
+  "prev": "1418160b3f231e7d1cc756a50421b8eb788dd2d26f5184d21387960bd588c3c2",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgx5gdRyjj1TV3HHoiUEdocxpuyiiExTtZ6SIFq9ojJ0YKp3BheWxvYWTESpcCCcQgFBgWCz8jHn0cx1alBCG463iN0tJvUYTSE4eWC9WIw8LEIGQZnfsyGtCWlgZ59dO63f1wwCfq1rDdnF4uTFehqTktAgHCo3NpZ8RAvp/YqOqAhsecuPXofrPnmiBoirLfkAccd2xI+g+T+UCqM4lmxtJArIgOEi4COnk+zJmzxjBUK1GcOaqNGHZ1BKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMi66typLiREsf1ljGLflUieesNZRT7PIoe4jD73zj66o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/palozano
+
+==================================================================
